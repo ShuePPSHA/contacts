@@ -76,3 +76,78 @@ text-decoration: none;
 margin-top: 5px;
 display: inline-block;
 }
+@media (max-width:767px){
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .contacts {
+    width: 100%;
+    max-width: 1488px;
+    height: 740px;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: url(./img/contacts__logo.png) no-repeat center;
+    
+  }
+  .contacts__title {
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 73px;
+    text-align: center;
+    color: #000000;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .contacts__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 16px; 
+    height: 368px;
+  }
+  .contacts__card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    
+  }
+  .contacts__card-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .contacts__card-item {
+    text-decoration: none;
+    margin-bottom: 15px;
+    max-width: 365px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 11px;
+    color: #000000;
+  }
+  .contacts__card-item a {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 11px;
+  color: #2B3773;
+  text-decoration: none;
+  margin-top: 5px;
+  display: inline-block;
+  }
+}
